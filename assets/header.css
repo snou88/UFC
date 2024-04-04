@@ -1,5 +1,5 @@
 .header {
-  overflow: hidden;
+  position: relative;
   background-color: var(--primary-color);
   padding: 20px 10px;
   display: flex;
@@ -15,7 +15,7 @@
   padding: 6px;
   margin: 6px;
   text-decoration: none;
-  font-size: 18px;
+  font-size: 24px;
   line-height: 25px;
   border-radius: 4px;
 }
@@ -53,6 +53,19 @@
 
 #mobileMenu {
   display: none;
+}
+
+.dropdown-content {
+  position: absolute;
+  top: 100%;
+  left: 100%;
+  max-width: 10%;
+  background-color: var(--primary-color);
+  transition: all 1s ease;
+}
+
+.dropdown-content a {
+  width: 90%;
 }
 
 /* Add media queries for responsiveness - when the screen is 500px wide or less, stack the links on top of each other */
