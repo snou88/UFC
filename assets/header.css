@@ -29,7 +29,7 @@
 }
 
 /* Change the background color on mouse-over */
-.header a:hover {
+.header-right a:hover {
   background-color: #f0f4f9;
   color: black;
 }
