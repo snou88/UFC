@@ -59,6 +59,7 @@
   position: absolute;
   top: 100%;
   left: 100%;
+  min-width: 10%;
   max-width: 10%;
   background-color: var(--primary-color);
   transition: all 1s ease;
