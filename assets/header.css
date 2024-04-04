@@ -2,6 +2,9 @@
   overflow: hidden;
   background-color: var(--primary-color);
   padding: 20px 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 /* Style the header links */
@@ -20,6 +23,15 @@
 .header a.logo {
   font-size: 25px;
   font-weight: bold;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  width: 64px;
 }
 
 /* Style the active/current link*/
