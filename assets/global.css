@@ -37,6 +37,7 @@ body {
   margin: 0;
   padding: 0;
   min-height: 100vh;
+  overflow-x: hidden;
 }
 
 a {
@@ -69,6 +70,8 @@ h6 {
   margin: 0 auto;
   padding: var(--padding-large);
   text-align: center;
+  align-items: center;
+  justify-content: center;
 }
 
 .arabic {
