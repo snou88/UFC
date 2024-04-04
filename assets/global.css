@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+
+/* Global CSS Variables */
+:root {
+  /* Colors */
+  --primary-color: #03a9f3;
+  --secondary-color: #efd000;
+  --background-color: #f0f4f9;
+  --text-color: #fff;
+
+  /* Fonts */
+  --main-font: "Rubik";
+  --heading-font: "Rubik";
+
+  /* Spacing */
+  --padding-small: 5px;
+  --padding-medium: 10px;
+  --padding-large: 20px;
+
+  /* Layout */
+  --container-width: 100%;
+}
+
+/* Global Styles */
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: var(--main-font);
+  color: var(--text-color);
+  /* background-color: var(--background-color); */
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--heading-font);
+  color: var(--primary-color);
+  margin-top: var(--padding-medium);
+  margin-bottom: var(--padding-medium);
+}
+
+#banner {
+  width: 100%;
+}
+
+.container {
+  width: var(--container-width);
+  margin: 0 auto;
+  padding-left: var(--padding-medium);
+  padding-right: var(--padding-medium);
+}
