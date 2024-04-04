@@ -68,6 +68,7 @@ h6 {
   background-color: var(--background-color);
   margin: 0 auto;
   padding: var(--padding-large);
+  text-align: center;
 }
 
 .arabic {
@@ -76,4 +77,21 @@ h6 {
 
 .arabic ul {
   direction: rtl; /* Set text direction to right-to-left */
+}
+
+.custom-button {
+  padding: var(--padding-medium) var(--padding-large);
+  font-size: 16px; /* font size */
+  font-weight: 600; /* Set the font weight */
+  color: var(--primary-color);
+  background-color: #fff;
+  border: 1px solid var(--primary-color);
+  /*border-radius: 5px; /* Add rounded corners */
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.custom-button:hover {
+  background-color: var(--primary-color);
+  color: #fff;
 }

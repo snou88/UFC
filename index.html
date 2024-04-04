@@ -8,6 +8,7 @@
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
 
     <link rel="stylesheet" href="/assets/global.css">
 
@@ -44,7 +45,7 @@
 
         <div class="container grid-container arabic">
             <h1>مرحبًا بكم في منصة التعليم عن بُعد لـجامعة التكوين المتواصل </h1>
-            <img src="./assets/images/books.jpg" alt="books">
+            <img src="./assets/images/books.jpg" alt="books" style="border: 5px solid var(--primary-color);">
         </div>
 
         <div class="container" style="background-color: #fff;">
@@ -54,10 +55,55 @@
         <div class="container">
 
         </div>
-
+        <!-- Section Prof -->
         <div class="container" style="background-color: #fff;">
-
+            <h1>أساتذة</h1>
+            <!-- Swiper -->
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img src="/assets/images/icons/user.png" alt="">
+                        <h4>أستاذة فرحاني مغراوي فتيحة فاطمة</h4>
+                        <button class="custom-button">المزيد</button>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="/assets/images/icons/user.png" alt="">
+                        <h4>أستاذ أحمد بولودنين</h4>
+                        <button class="custom-button">المزيد</button>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="/assets/images/icons/user.png" alt="">
+                        <h4>أستاذ صديق بغداد</h4>
+                        <button class="custom-button">المزيد</button>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="/assets/images/icons/user.png" alt="">
+                        <h4>أستاذ رضوان مختاري</h4>
+                        <button class="custom-button">المزيد</button>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="/assets/images/icons/user.png" alt="">
+                        <h4>أستاذة مريم عروس</h4>
+                        <button class="custom-button">المزيد</button>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="/assets/images/icons/user.png" alt="">
+                        <h4>أستاذ كمال العقاب</h4>
+                        <button class="custom-button">المزيد</button>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="/assets/images/icons/user.png" alt="">
+                        <h4>أستاذة ربيعة جعفري</h4>
+                        <button class="custom-button">المزيد</button>
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
         </div>
+
+
+
+
 
     </main>
 
@@ -119,5 +165,20 @@
     </div>
 
 </body>
+
+<!-- Swiper JS -->
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<!-- Initialize Swiper -->
+<script>
+    var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 4,
+        spaceBetween: 30,
+        centeredSlides: true,
+        pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+        },
+    });
+</script>
 
 </html>
