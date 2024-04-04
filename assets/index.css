@@ -17,8 +17,19 @@
   box-shadow: 5px 4px 4px rgba(0, 0, 0, 0.1),
     inset 4px 4px 4px rgba(0, 0, 0, 0.05);
 }
+
 .grid-item h3 {
   color: var(--primary-color);
+}
+
+.info ul {
+  margin-top: 0; /* Remove default margin from the list */
+  padding-left: 20px; /* Add padding to align text with the heading */
+}
+
+.info ul li {
+  list-style-type: none; /* Remove default list bullet */
+  margin-bottom: 5px; /* Add spacing between list items */
 }
 
 .container img {
