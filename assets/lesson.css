@@ -1,0 +1,41 @@
+.book-container {
+  width: 90%;
+  margin: var(--padding-large) auto;
+  background: var(--background-color);
+  color: #000;
+  min-height: 300px;
+  font-size: 20px;
+}
+
+.book-grid {
+  display: grid;
+  grid-template-columns: 35% 65%;
+}
+
+.left-side {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: var(--padding-large) 0;
+  padding-left: calc(var(--padding-large) * 3);
+}
+
+.left-side img {
+  border: 1px solid var(--primary-color);
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+}
+
+.book-container .custom-button {
+  width: 100%;
+  font-size: 20px;
+}
+
+.left-side button {
+  margin: var(--padding-large) 0;
+}
+
+.right-side {
+  padding: 20px;
+}

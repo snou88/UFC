@@ -1,0 +1,52 @@
+hr {
+  display: block;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #000;
+}
+
+.profile {
+  width: 80%;
+  margin: 20px auto;
+  display: grid;
+  grid-template-columns: 15% 85%;
+  gap: var(--padding-medium);
+  font-size: 20px;
+  color: #000;
+}
+
+.profile-image {
+  width: 100%;
+  max-width: 100%;
+  aspect-ratio: 1/1;
+  background: var(--background-color);
+  padding: var(--padding-large);
+  overflow: hidden;
+  margin-bottom: var(--padding-large);
+}
+
+.profile-image img {
+  width: 80%;
+  margin: 10%;
+}
+
+.profile .custom-button {
+  width: 100%;
+  font-size: 20px;
+}
+
+.profile-info {
+  display: flex;
+  flex-direction: column;
+  padding: var(--padding-large);
+}
+
+.profile-info h2 {
+  margin-top: 0;
+}
+
+.profile-info p {
+  margin-bottom: 5px;
+}
