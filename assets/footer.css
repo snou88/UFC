@@ -1,12 +1,16 @@
 .footer {
   overflow: hidden;
   background-color: var(--primary-color);
-  padding: 20px 10px;
-  height: 400px;
+  padding: var(--padding-large);
+  height: 300px;
 }
 
 .footer * {
   color: #fff;
+}
+
+.footer div {
+  padding: var(--padding-medium);
 }
 
 .grid221 {
@@ -32,4 +36,26 @@
   grid-area: 2 / 1 / 3 / 3;
   text-align: left;
   align-self: end;
+}
+
+.footer ul {
+  padding: var(--padding-large);
+}
+
+.footer li {
+  margin-bottom: var(--padding-large);
+}
+
+.social-icons {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  font-size: 48px;
+  text-align: center;
+}
+
+.social-icons a {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
 }

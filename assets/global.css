@@ -73,3 +73,7 @@ h6 {
 .arabic {
   text-align: right;
 }
+
+.arabic ul {
+  direction: rtl; /* Set text direction to right-to-left */
+}
