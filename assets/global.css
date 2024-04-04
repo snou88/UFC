@@ -19,6 +19,7 @@
 
   /* Layout */
   --container-width: 100%;
+  --container-height: 500px;
 }
 
 /* Global Styles */
@@ -51,7 +52,8 @@ h4,
 h5,
 h6 {
   font-family: var(--heading-font);
-  color: var(--primary-color);
+  /*color: var(--primary-color);*/
+  color: #000;
   margin-top: var(--padding-medium);
   margin-bottom: var(--padding-medium);
 }
@@ -62,7 +64,12 @@ h6 {
 
 .container {
   width: var(--container-width);
+  height: var(--container-height);
+  background-color: var(--background-color);
   margin: 0 auto;
-  padding-left: var(--padding-medium);
-  padding-right: var(--padding-medium);
+  padding: var(--padding-large);
+}
+
+.arabic {
+  text-align: right;
 }

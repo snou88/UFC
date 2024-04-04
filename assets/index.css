@@ -1,0 +1,16 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* Two columns, each taking up 50% */
+  gap: 10px;
+  justify-items: center; /* horizontally */
+  align-items: center; /* vertically */
+}
+
+.container img {
+  max-height: 450px;
+  border: 5px solid var(--primary-color);
+}
+
+.container h1 {
+  font-size: 60px;
+}
