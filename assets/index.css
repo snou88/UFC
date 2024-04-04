@@ -66,8 +66,10 @@
 
 /* Swiper */
 .swiper {
-  width: 100%;
+  width: 75%;
   height: 80%;
+  padding: 20px;
+  margin: 0 auto;
   color: #000;
   overflow: hidden;
 }
@@ -77,7 +79,6 @@
   font-size: 18px;
   box-shadow: 5px 4px 4px rgba(0, 0, 0, 0.1),
     inset 4px 4px 4px rgba(0, 0, 0, 0.05);
-  max-width: 250px;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
