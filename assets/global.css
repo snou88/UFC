@@ -19,7 +19,7 @@
 
   /* Layout */
   --container-width: 100%;
-  --container-height: 700px;
+  --container-height: 600px;
 }
 
 /* Global Styles */
@@ -37,6 +37,7 @@ body {
   margin: 0;
   padding: 0;
   min-height: 100vh;
+  position: relative;
   overflow-x: hidden;
 }
 
