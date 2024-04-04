@@ -1,0 +1,35 @@
+.footer {
+  overflow: hidden;
+  background-color: var(--primary-color);
+  padding: 20px 10px;
+  height: 400px;
+}
+
+.footer * {
+  color: #fff;
+}
+
+.grid221 {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 10px; /* Adjust the gap between items */
+}
+
+#socials {
+  grid-area: 1 / 1 / 2 / 3;
+  box-shadow: 5px 4px 4px rgba(0, 0, 0, 0.1);
+}
+#linkbig {
+  grid-area: 1 / 3 / 3 / 5;
+  box-shadow: 5px 4px 4px rgba(0, 0, 0, 0.1);
+}
+#linksmall {
+  grid-area: 1 / 5 / 3 / 6;
+  box-shadow: 5px 4px 4px rgba(0, 0, 0, 0.1);
+}
+#credits {
+  grid-area: 2 / 1 / 3 / 3;
+  text-align: left;
+  align-self: end;
+}
