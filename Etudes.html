@@ -12,6 +12,7 @@
 
     <link rel="stylesheet" href="./assets/global.css">
     <link rel="stylesheet" href="./assets/header.css">
+    <link rel="stylesheet" href="./assets/Etude.css">
     <link rel="stylesheet" href="./assets/footer.css">
 
 </head>
@@ -26,11 +27,19 @@
     <div class="header">
         <a href="#default" class="logo">
             <img src="./assets/images/logo.png" alt="Logo">
-            جامعة التكوين المتواصل</a>
+            جامعة التكوين المتواصل
+        </a>
         <div class="header-right">
             <a href="#plus">المزيد</a>
             <a class="active" href="Etudes.html">التكوينات</a>
             <a href="index.html">الصفحة الرئيسية</a>
+            <a id="languageDropdown"><i class="fas fa-language"></i></a>
+            <div class="dropdown-content" id="languageDropdownContent">
+                <a href="#">English</a>
+                <a href="#">Français</a>
+                <a href="#">عربي</a>
+            </div>
+
         </div>
         <svg xmlns="http://www.w3.org/2000/svg" id="mobileMenu" width="64" height="64" viewBox="0 0 24 24">
             <path d="M3.8,6.6h16.4" />
@@ -38,6 +47,88 @@
             <path d="M3.8,17.5h16.4" />
         </svg>
     </div>
+
+    <div class="container">
+        <!-- Field: ميدان العلوم الاقتصادية والتسيير والعلوم التجارية -->
+        <ul class="tree">
+            <li>
+                <input type="checkbox" id="economic1" />
+                <label class="tree_label" for="economic1">ميدان العلوم الاقتصادية والتسيير والعلوم التجارية</label>
+                <ul>
+                    <li>
+                        <input type="checkbox" id="accounting1" />
+                        <label for="accounting1" class="tree_label">ليسانس محاسبة ومالية</label>
+                    </li>
+                    <li>
+                        <input type="checkbox" id="accountingMaster" />
+                        <label for="accountingMaster" class="tree_label">ماستر محاسبة</label>
+                    </li>
+                    <li>
+                        <input type="checkbox" id="managementMaster" />
+                        <label for="managementMaster" class="tree_label">ماستر تسيير عمومي</label>
+                    </li>
+                    <li>
+                        <input type="checkbox" id="organizationsManagementMaster" />
+                        <label for="organizationsManagementMaster" class="tree_label">ماستر إدارة المنظمات</label>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+        <hr> <!-- This adds a horizontal rule between the trees -->
+
+        <!-- Field: ميدان العلوم الانسانية و الاجتماعية -->
+        <ul class="tree">
+            <li>
+                <input type="checkbox" id="humanities1" />
+                <label class="tree_label" for="humanities1">ميدان العلوم الانسانية و الاجتماعية</label>
+                <ul>
+                    <li>
+                        <input type="checkbox" id="media1" />
+                        <label for="media1" class="tree_label">ليسانس إعلام واتصال</label>
+                    </li>
+                    <li>
+                        <input type="checkbox" id="journalismMaster" />
+                        <label for="journalismMaster" class="tree_label">ماستر صحافة مطبوعة وإلكترونية</label>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+        <hr> <!-- This adds a horizontal rule between the trees -->
+
+        <!-- Field: ميدان قانون الأعمال -->
+        <ul class="tree">
+            <li>
+                <input type="checkbox" id="businessLaw1" />
+                <label class="tree_label" for="businessLaw1">ميدان قانون الأعمال</label>
+                <ul>
+                    <li>
+                        <input type="checkbox" id="generalLaw1" />
+                        <label for="generalLaw1" class="tree_label">ليسانس قانون عام وخاص</label>
+                    </li>
+                    <li>
+                        <input type="checkbox" id="businessLawMaster" />
+                        <label for="businessLawMaster" class="tree_label">ماستر قانون أعمال</label>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+        <hr> <!-- This adds a horizontal rule between the trees -->
+
+        <!-- Field: ميدان الآداب و اللغات الأجنبية -->
+        <ul class="tree">
+            <li>
+                <input type="checkbox" id="artsAndLanguages1" />
+                <label class="tree_label" for="artsAndLanguages1">ميدان الآداب و اللغات الأجنبية</label>
+                <ul>
+                    <li>
+                        <input type="checkbox" id="englishTech1" />
+                        <label for="englishTech1" class="tree_label">ليسانس انجليزية تقنية</label>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+
 
     <!-- Footer -->
     <div class="footer grid221 ">
@@ -98,5 +189,18 @@
     </div>
 
 </body>
+
+<script>
+    // Toggle dropdown position on icon click
+    document.getElementById('languageDropdown').addEventListener('click', function () {
+        var dropdownContent = document.getElementById('languageDropdownContent');
+        if (dropdownContent.style.left === '90%') {
+            dropdownContent.style.left = '100%';
+        } else {
+            dropdownContent.style.left = '90%';
+        }
+    });
+
+</script>
 
 </html>
