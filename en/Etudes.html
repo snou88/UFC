@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+
+    <link rel="stylesheet" href="../assets/global.css">
+    <link rel="stylesheet" href="../assets/header.css">
+    <link rel="stylesheet" href="../assets/Etude.css">
+    <link rel="stylesheet" href="../assets/footer.css">
+
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <a href="https://ufc.dz/" target="_blank">
+        <img src="../assets/images/site-banner.png" alt="banner" id="banner">
+    </a>
+
+    <div class="header">
+        <a href="#default" class="logo">
+            <img src="../assets/images/logo.png" alt="Logo">
+            Continuing Education University
+        </a>
+        <div class="header-right">
+            <a href="#plus">More</a>
+            <a class="active" href="Studies.html">Programs</a>
+            <a href="index.html">Home</a>
+            <a id="languageDropdown"><i class="fas fa-language"></i></a>
+            <div class="dropdown-content" id="languageDropdownContent">
+                <a href="#">English</a>
+                <a href="#">French</a>
+                <a href="../Studies.html">Arabic</a>
+            </div>
+
+        </div>
+        <svg xmlns="http://www.w3.org/2000/svg" id="mobileMenu" width="64" height="64" viewBox="0 0 24 24">
+            <path d="M3.8,6.6h16.4" />
+            <path d="M20.2,12.1H3.8" />
+            <path d="M3.8,17.5h16.4" />
+        </svg>
+    </div>
+
+    <div class="container">
+        <!-- Field: Economic and Management Sciences -->
+        <ul class="tree">
+            <li>
+                <input type="checkbox" id="economic1" />
+                <label class="tree_label" for="economic1">Economic and Management Sciences</label>
+                <ul>
+                    <!-- Bachelor's Degree -->
+                    <li>
+                        <input type="checkbox" id="accounting1" />
+                        <label for="accounting1" class="tree_label">Bachelor in Accounting and Finance</label>
+                        <ul>
+                            <li>
+                                <input type="checkbox" id="firstYearAccounting1" />
+                                <label for="firstYearAccounting1" class="tree_label">First Year of Studies</label>
+                                <ul>
+                                    <li><a href="courses.html">Semester 1</a></li>
+                                    <li><a href="courses.html">Semester 2</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <input type="checkbox" id="secondYearAccounting1" />
+                                <label for="secondYearAccounting1" class="tree_label">Second Year of Studies</label>
+                                <ul>
+                                    <li><a href="courses.html">Semester 1</a></li>
+                                    <li><a href="courses.html">Semester 2</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <input type="checkbox" id="thirdYearAccounting1" />
+                                <label for="thirdYearAccounting1" class="tree_label">Third Year of Studies</label>
+                                <ul>
+                                    <li><a href="courses.html">Semester 1</a></li>
+                                    <li><a href="courses.html">Semester 2</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <!-- Master's Degree -->
+                    <li>
+                        <input type="checkbox" id="accountingMaster" />
+                        <label for="accountingMaster" class="tree_label">Master in Accounting</label>
+                        <ul>
+                            <li>
+                                <input type="checkbox" id="firstYearMaster" />
+                                <label for="firstYearMaster" class="tree_label">First Year of Studies</label>
+                                <ul>
+                                    <li><a href="courses.html">Semester 1</a></li>
+                                    <li><a href="courses.html">Semester 2</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <input type="checkbox" id="secondYearMaster" />
+                                <label for="secondYearMaster" class="tree_label">Second Year of Studies</label>
+                                <ul>
+                                    <li><a href="courses.html">Semester 1</a></li>
+                                    <li><a href="courses.html">Semester 2</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li>
+                        <input type="checkbox" id="managementMaster" />
+                        <label for="managementMaster" class="tree_label">Master in Public Management</label>
+                        <ul>
+                            <li>
+                                <input type="checkbox" id="firstYearManagementMaster" />
+                                <label for="firstYearManagementMaster" class="tree_label">First Year of Studies</label>
+                                <ul>
+                                    <li><a href="courses.html">Semester 1</a></li>
+                                    <li><a href="courses.html">Semester 2</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <input type="checkbox" id="secondYearManagementMaster" />
+                                <label for="secondYearManagementMaster" class="tree_label">Second Year of
+                                    Studies</label>
+                                <ul>
+                                    <li><a href="courses.html">Semester 1</a></li>
+                                    <li><a href="courses.html">Semester 2</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <input type="checkbox" id="organizationsManagementMaster" />
+                        <label for="organizationsManagementMaster" class="tree_label">Master in Organizational
+                            Management</label>
+                        <ul>
+                            <li>
+                                <input type="checkbox" id="firstYearOrganizationsManagementMaster" />
+                                <label for="firstYearOrganizationsManagementMaster" class="tree_label">First Year of
+                                    Studies</label>
+                                <ul>
+                                    <li><a href="courses.html">Semester 1</a></li>
+                                    <li><a href="courses.html">Semester 2</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <input type="checkbox" id="secondYearOrganizationsManagementMaster" />
+                                <label for="secondYearOrganizationsManagementMaster" class="tree_label">Second Year of
+                                    Studies</label>
+                                <ul>
+                                    <li><a href="courses.html">Semester 1</a></li>
+                                    <li><a href="courses.html">Semester 2</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+
+                </ul>
+            </li>
+        </ul>
+        <hr> <!-- This adds a horizontal rule between the trees -->
+
+        <!-- Field: Humanities and Social Sciences -->
+        <ul class="tree">
+            <li>
+                <input type="checkbox" id="humanities1" />
+                <label class="tree_label" for="humanities1">Humanities and Social Sciences</label>
+                <ul>
+                    <!-- Bachelor's Degree -->
+                    <li>
+                        <input type="checkbox" id="media1" />
+                        <label for="media1" class="tree_label">Bachelor in Information and Communication</label>
+                        <ul>
+                            <li>
+                                <input type="checkbox" id="firstYearMedia1" />
+                                <label for="firstYearMedia1" class="tree_label">First Year of Studies</label>
+                                <ul>
+                                    <li><a href="courses.html">Semester 1</a></li>
+                                    <li><a href="courses.html">Semester 2</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <input type="checkbox" id="secondYearMedia1" />
+                                <label for="secondYearMedia1" class="tree_label">Second Year of Studies</label>
+                                <ul>
+                                    <li><a href="courses.html">Semester 1</a></li>
+                                    <li><a href="courses.html">Semester 2</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <input type="checkbox" id="thirdYearMedia1" />
+                                <label for="thirdYearMedia1" class="tree_label">Third Year of Studies</label>
+                                <ul>
+                                    <li><a href="courses.html">Semester 1</a></li>
+                                    <li><a href="courses.html">Semester 2</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <!-- Master's Degree -->
+                    <li>
+                        <input type="checkbox" id="journalismMaster" />
+                        <label for="journalismMaster" class="tree_label">Master in Print and Electronic
+                            Journalism</label>
+                        <ul>
+                            <li>
+                                <input type="checkbox" id="firstYearJournalismMaster" />
+                                <label for="firstYearJournalismMaster" class="tree_label">First Year of Studies</label>
+                                <ul>
+                                    <li><a href="courses.html">Semester 1</a></li>
+                                    <li><a href="courses.html">Semester 2</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <input type="checkbox" id="secondYearJournalismMaster" />
+                                <label for="secondYearJournalismMaster" class="tree_label">Second Year of
+                                    Studies</label>
+                                <ul>
+                                    <li><a href="courses.html">Semester 1</a></li>
+                                    <li><a href="courses.html">Semester 2</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+
+        </ul>
+        <hr> <!-- This adds a horizontal rule between the trees -->
+
+        <!-- Field: Business Law -->
+        <ul class="tree">
+            <li>
+                <input type="checkbox" id="businessLaw1" />
+                <label class="tree_label" for="businessLaw1">Business Law</label>
+                <ul>
+                    <!-- Bachelor's Degree -->
+                    <li>
+                        <input type="checkbox" id="generalLaw1" />
+                        <label for="generalLaw1" class="tree_label">Bachelor in General and Private Law</label>
+                        <ul>
+                            <li>
+                                <input type="checkbox" id="firstYearGeneralLaw1" />
+                                <label for="firstYearGeneralLaw1" class="tree_label">First Year of Studies</label>
+                                <ul>
+                                    <li><a href="courses.html">Semester 1</a></li>
+                                    <li><a href="courses.html">Semester 2</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <input type="checkbox" id="secondYearGeneralLaw1" />
+                                <label for="secondYearGeneralLaw1" class="tree_label">Second Year of Studies</label>
+                                <ul>
+                                    <li><a href="courses.html">Semester 1</a></li>
+                                    <li><a href="courses.html">Semester 2</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <input type="checkbox" id="thirdYearGeneralLaw1" />
+                                <label for="thirdYearGeneralLaw1" class="tree_label">Third Year of Studies</label>
+                                <ul>
+                                    <li><a href="courses.html">Semester 1</a></li>
+                                    <li><a href="courses.html">Semester 2</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <!-- Master's Degree -->
+                    <li>
+                        <input type="checkbox" id="businessLawMaster" />
+                        <label for="businessLawMaster" class="tree_label">Master in Business Law</label>
+                        <ul>
+                            <li>
+                                <input type="checkbox" id="firstYearBusinessLawMaster" />
+                                <label for="firstYearBusinessLawMaster" class="tree_label">First Year of Studies</label>
+                                <ul>
+                                    <li><a href="courses.html">Semester 1</a></li>
+                                    <li><a href="courses.html">Semester 2</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <input type="checkbox" id="secondYearBusinessLawMaster" />
+                                <label for="secondYearBusinessLawMaster" class="tree_label">Second Year of
+                                    Studies</label>
+                                <ul>
+                                    <li><a href="courses.html">Semester 1</a></li>
+                                    <li><a href="courses.html">Semester 2</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+
+        <hr> <!-- This adds a horizontal rule between the trees -->
+
+        <!-- Field: Arts and Foreign Languages -->
+        <ul class="tree">
+            <li>
+                <input type="checkbox" id="artsAndLanguages1" />
+                <label class="tree_label" for="artsAndLanguages1">Arts and Foreign Languages</label>
+                <ul>
+                    <!-- Bachelor's Degree -->
+                    <li>
+                        <input type="checkbox" id="englishTech1" />
+                        <label for="englishTech1" class="tree_label">Bachelor in Technical English</label>
+                        <ul>
+                            <li>
+                                <input type="checkbox" id="firstYearEnglishTech1" />
+                                <label for="firstYearEnglishTech1" class="tree_label">First Year of Studies</label>
+                                <ul>
+                                    <li><a href="courses.html">Semester 1</a></li>
+                                    <li><a href="courses.html">Semester 2</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <input type="checkbox" id="secondYearEnglishTech1" />
+                                <label for="secondYearEnglishTech1" class="tree_label">Second Year of Studies</label>
+                                <ul>
+                                    <li><a href="courses.html">Semester 1</a></li>
+                                    <li><a href="courses.html">Semester 2</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <input type="checkbox" id="thirdYearEnglishTech1" />
+                                <label for="thirdYearEnglishTech1" class="tree_label">Third Year of Studies</label>
+                                <ul>
+                                    <li><a href="courses.html">Semester 1</a></li>
+                                    <li><a href="courses.html">Semester 2</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+
+                </ul>
+            </li>
+        </ul>
+
+    </div>
+
+
+
+    <!-- Footer -->
+    <div class="footer grid221 ">
+        <div id="socials">
+            <h2>Contact</h2>
+            <div class="social-icons">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+                <a href="#"><i class="fab fa-pinterest"></i></a>
+                <a href="#"><i class="fab fa-github"></i></a>
+            </div>
+        </div>
+        <div id="linkbig">
+            <h2>Domains</h2>
+            <ul>
+                <li><a href="#">
+                        Economic Sciences, Management, and Commercial Sciences
+                    </a>
+                </li>
+                <li><a href="#">
+                        Field of Humanities and Social Sciences
+                    </a>
+                </li>
+                <li><a href="#">
+                        Field of Business Law
+                    </a>
+                </li>
+                <li><a href="#">
+                        Field of Arts and Foreign Languages
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div id="linksmall">
+            <h2>Programs</h2>
+            <ul>
+                <li><a href="#">
+                        Distance Learning Bachelor's Degree
+                    </a>
+                </li>
+                <li><a href="#">
+                        Distance Learning Master's Degree
+                    </a>
+                </li>
+                <li><a href="#">
+                        Open Specializations
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div id="credits">
+            <h3>
+                Continuing Education University
+                <br>
+                All rights reserved ©2024
+            </h3>
+        </div>
+    </div>
+
+</body>
+
+<script>
+    // Toggle dropdown position on icon click
+    document.getElementById('languageDropdown').addEventListener('click', function () {
+        var dropdownContent = document.getElementById('languageDropdownContent');
+        if (dropdownContent.style.left === '90%') {
+            dropdownContent.style.left = '100%';
+        } else {
+            dropdownContent.style.left = '90%';
+        }
+    });
+
+</script>
+
+</html>
