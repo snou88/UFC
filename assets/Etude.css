@@ -12,7 +12,7 @@
 }
 
 .tree > li > .tree_label {
-  color: blue;
+  color: black;
   font-weight: bold;
 }
 
@@ -64,7 +64,7 @@ label.tree_label:hover {
 
 /* Tree expanded icon */
 label.tree_label:before {
-  background: #000;
+  background: var(--primary-color);
   color: #fff;
   position: relative;
   z-index: 1;
