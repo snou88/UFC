@@ -67,7 +67,7 @@ h6 {
 .container {
   width: var(--container-width);
   height: var(--container-height);
-  background-color: var(--background-color);
+  background-color: #03a9f3;
   margin: 0 auto;
   padding: var(--padding-large);
   text-align: center;
