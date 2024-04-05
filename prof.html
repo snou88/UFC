@@ -204,4 +204,17 @@
 
 </body>
 
+<script>
+    // Toggle dropdown position on icon click
+    document.getElementById('languageDropdown').addEventListener('click', function () {
+        var dropdownContent = document.getElementById('languageDropdownContent');
+        if (dropdownContent.style.left === '90%') {
+            dropdownContent.style.left = '100%';
+        } else {
+            dropdownContent.style.left = '90%';
+        }
+    });
+
+</script>
+
 </html>
